@@ -1,0 +1,123 @@
+.carousel{
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+  object-fit: contain;
+  background-color: black;
+}
+.Carousel-container{
+  /* opacity: .5; */
+  /* height: 100vh; */
+  width: 100vw;
+  position: relative;
+  object-fit: contain;
+  background-color: black;
+}
+.carousel img{
+  background-color: black;
+  opacity: .3;
+  height: 100vh;
+}
+.carousel p{
+  height: 40vh;
+  text-align: center;
+  justify-content: center;
+}
+.about-container{
+  text-align: center;
+  padding: 4rem;
+  margin: 2rem 0;
+}
+.about-text p{
+  margin-top: 2rem;
+  word-spacing: 1px;
+  line-height: 35px;
+}
+.about-container Button{
+  width: 15rem;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 4rem;
+}
+.about-container button:hover{
+  box-shadow: 10px 5px 5px rgb(211, 210, 210);
+}
+.news-container{
+  text-align: center;
+  padding: 2rem 0;
+  text-align: right;
+  background-color: rgb(255, 255, 255);
+}
+.news-container h1{
+  text-align: center;
+}
+.news-cards{
+  /* background-color: blue; */
+}
+.news-card-content{
+  border-radius: 2rem;
+  margin: 3rem .5rem;
+  padding: 2rem;
+  text-align: center;
+  transition: .5s;
+  box-shadow: 10px 5px 5px rgb(211, 210, 210);
+}
+.news-card-content:hover{
+  box-shadow: 10px 5px 5px rgb(119, 118, 118);
+}
+.news-card-content img{
+  width: 25rem;
+}
+.news-card-content h4{
+  margin-top: 2rem;
+}
+.news-card-content p{
+  margin-top: 1rem;
+}
+.parks-img{
+  text-align: center;
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url('https://images.pexels.com/photos/534164/pexels-photo-534164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
+}
+.park-page h1{
+  text-align: center;
+  padding: 2rem;
+}
+.parks-card-content{
+  /* overflow: hidden; */
+  /* background-color: rgb(0, 0, 0); */
+}
+.parks-card-content img{
+  margin: 1rem;
+  border-radius: 2rem;
+  overflow: hidden;
+  transition: .5s;
+  height: 30rem;
+  background-color: black;
+}
+.parks-card-content img:hover{
+  opacity: .5;
+  /* transform: scale(1.1); */
+  overflow: hidden;
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
+.park-page h3{
+  text-align: center;
+  margin:0.5rem 1rem;
+  padding: 1rem;
+  color: rgb(0, 0, 0);
+  border-radius: 2rem;
+  transition: 1s;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px 5px 5px rgb(211, 210, 210);
+}
+.park-page h3:hover{
+  box-shadow: 10px 5px 5px rgb(119, 118, 118);
+}
