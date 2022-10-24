@@ -2,6 +2,7 @@ import React from 'react';
 import {news} from '../constants';
 import {Splide, SplideSlide} from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
+import { Button } from 'react-bootstrap';
 
 const NewsCard = () => (
 
@@ -15,11 +16,11 @@ const NewsCard = () => (
         }>
             {
             news.map((news) => (
+                <SplideSlide>
                 <div key={
                         news.id
                     }
                     className="news-card-content">
-                    <SplideSlide>
                         <img src={
                                 news.img
                             }
@@ -32,9 +33,9 @@ const NewsCard = () => (
                         <p>{
                             news.content
                         }</p>
-
-                    </SplideSlide>
+                        <Button variant="warning">Read More</Button>
                 </div>
+                    </SplideSlide>
             ))
         } 
         </Splide>
