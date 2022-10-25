@@ -10,19 +10,28 @@ const Parks = () => {
            {
           <Splide options={
             {
-              height:'100rem',
+              height:'80rem',
                 perPage: 3,
                 pagination: false,
                 drag: 'free',
                 arrows: false,
+                
+                breakpoints: {
+                  640: {
+                    perPage: 1,
+                  },
+                  900: {
+                    perPage: 2,
+                },
+                }
             }
         }>
           {
             park.map((parks) => (
-              <SplideSlide>
-                <div key={
-                        parks.id
-                    }
+              <SplideSlide key={
+                parks.id
+            }>
+                <div
                     className="parks-card-content">
 
                         <img src={

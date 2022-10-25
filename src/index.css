@@ -55,6 +55,7 @@
   /* background-color: blue; */
 }
 .news-card-content{
+  height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -71,7 +72,8 @@
   box-shadow: 10px 5px 5px rgb(119, 118, 118);
 }
 .news-card-content img{
-  width: 25rem;
+  width: 80%;
+  overflow: hidden;
 }
 .news-card-content h4{
   margin-top: 2rem;
@@ -229,4 +231,129 @@
 .accomodation-page h1{
   text-align: center;
   padding-top: 5rem;
+}
+footer a{
+  text-decoration: none;
+}
+
+/* <----- Media Queries -----> */
+
+@media (max-width: 900px) {
+  .school-main{
+    margin: 0rem;
+    padding: 0rem;
+  }
+  .school-page-container{
+    display: flex;
+    margin: 0rem;
+    flex-direction: column;
+  }
+  .school-image{
+    max-width: 100%;
+    margin: 0rem;
+  }
+  .school-details{
+    width: 100%;
+    border-radius: 0rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .school-main{
+    margin: 0rem;
+    padding: 0rem;
+  }
+  .school-page-container{
+    display: flex;
+    margin: 0rem;
+    flex-direction: column;
+  }
+  .school-image{
+    max-width: 100%;
+    margin: 0rem;
+  }
+  .school-details{
+    width: 100%;
+    border-radius: 0rem;
+  }
+}
+@media (max-width: 768px) {
+  .school-main{
+    margin: 0rem;
+    padding: 0rem;
+  }
+  .school-page-container{
+    display: flex;
+    margin: 0rem;
+    flex-direction: column;
+  }
+  .school-image{
+    max-width: 100%;
+    margin: 0rem;
+  }
+  .school-details{
+    width: 100%;
+    border-radius: 0rem;
+  }
+}
+@media (max-width: 575px) {
+  .school-main{
+    margin: 0rem;
+    padding: 0rem;
+  }
+  .school-page-container{
+    display: flex;
+    margin: 0rem;
+    flex-direction: column;
+  }
+  .school-image{
+    max-width: 100%;
+    margin: 0rem;
+    background-color: blue;
+  }
+  .school-details{
+    width: 100%;
+    border-radius: 0rem;
+  }
+  
+}
+@media (max-width: 420px) {
+  .school-main{
+    margin: 0rem;
+    padding: 0rem;
+  }
+  .school-page-container{
+    display: flex;
+    margin: 0rem;
+    flex-direction: column;
+  }
+  .school-image{
+    max-width: 100%;
+    margin: 0rem;
+    background-color: blue;
+  }
+  .school-details{
+    width: 100%;
+    border-radius: 0rem;
+  }
+}
+@media (max-width:375px) {
+  .school-main{
+    margin: 0rem;
+    padding: 0rem;
+  }
+  .school-page-container{
+    display: flex;
+    margin: 0rem;
+    flex-direction: column;
+  }
+  .school-image{
+    max-width: 100%;
+    margin: 0rem;
+    background-color: blue;
+  }
+  .school-details{
+    width: 100%;
+    border-radius: 0rem;
+  }
 }

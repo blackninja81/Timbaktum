@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaAngular, FaReact, FaVuejs, FaLaravel } from 'react-icons/fa';
 import {AiFillFacebook, AiFillTwitterSquare, AiFillGooglePlusSquare, AiFillInstagram, AiFillLinkedin, AiFillGithub} from 'react-icons/ai';
 
 const Footer = () => {
@@ -18,7 +19,7 @@ const Footer = () => {
       <a href="" className="me-4 text-reset">
         <i className="fab fa-twitter"><AiFillTwitterSquare/></i>
       </a>
-      <a href="" class="me-4 text-reset">
+      <a href="" className="me-4 text-reset">
         <i className="fab fa-google"><AiFillGooglePlusSquare/></i>
       </a>
       <a href="" className="me-4 text-reset">
@@ -53,16 +54,16 @@ const Footer = () => {
             Products
           </h6>
           <p>
-            <a href="#!" className="text-reset">Angular</a>
+            <a href="#!" className="text-reset"><FaAngular/> Angular</a>
           </p>
           <p>
-            <a href="#!" className="text-reset">React</a>
+            <a href="#!" className="text-reset"><FaReact/> React</a>
           </p>
           <p>
-            <a href="#!" className="text-reset">Vue</a>
+            <a href="#!" className="text-reset"><FaVuejs/> Vue</a>
           </p>
           <p>
-            <a href="#!" className="text-reset">Laravel</a>
+            <a href="#!" className="text-reset"><FaLaravel/> Laravel</a>
           </p>
         </div>
         <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
@@ -80,7 +81,7 @@ const Footer = () => {
             <a href="#!" className="text-reset">Parks</a>
           </p>
           <p>
-            <a href="#!" className="text-reset">Restaurants</a>
+            <a href="#accomodation-page" className="text-reset">Restaurants</a>
           </p>
         </div>
         <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">

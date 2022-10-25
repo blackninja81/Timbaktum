@@ -12,14 +12,23 @@ const NewsCard = () => (
                 perPage: 3,
                 pagination: false,
                 drag: 'free',
+
+                breakpoints: {
+                    640: {
+                        perPage: 1,
+                    },
+                    900: {
+                        perPage: 2,
+                    },
+              }
             }
         }>
             {
             news.map((news) => (
-                <SplideSlide>
-                <div key={
-                        news.id
-                    }
+                <SplideSlide key={
+                    news.id
+                }>
+                <div
                     className="news-card-content">
                         <img src={
                                 news.img

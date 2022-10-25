@@ -12,14 +12,22 @@ const AccomodationCard = () => {
             perPage: 3,
             pagination: false,
             drag: 'free',
+            breakpoints: {
+                640: {
+                  perPage: 1,
+                },
+                900: {
+                  perPage: 2,
+              },
+              }
         }
     }>
         {
         hotels.map((hotel) => (
-            <SplideSlide>
-            <div key={
-                    hotel.id
-                }
+            <SplideSlide  key={
+                hotel.id
+            }>
+            <div
                 className="news-card-content">
                     <img src={
                             hotel.img
