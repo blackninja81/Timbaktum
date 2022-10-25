@@ -299,6 +299,10 @@ footer a{
     width: 100%;
     border-radius: 0rem;
   }
+  .filler-image h1{
+    font-size: 40px;
+    text-align: center;
+  }
 }
 @media (max-width: 575px) {
   .school-main{
@@ -319,7 +323,10 @@ footer a{
     width: 100%;
     border-radius: 0rem;
   }
-  
+  .filler-image h1{
+    font-size: 40px;
+    text-align: center;
+  }
 }
 @media (max-width: 420px) {
   .school-main{
@@ -340,6 +347,10 @@ footer a{
     width: 100%;
     border-radius: 0rem;
   }
+  .filler-image h1{
+    font-size: 40px;
+    text-align: center;
+  }
 }
 @media (max-width:375px) {
   .school-main{
@@ -359,5 +370,9 @@ footer a{
   .school-details{
     width: 100%;
     border-radius: 0rem;
+  }
+  .filler-image h1{
+    font-size: 40px;
+    text-align: center;
   }
 }
