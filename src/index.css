@@ -1,3 +1,7 @@
+.main-home{
+  overflow: hidden;
+  font-family: 'Aboreto', cursive;
+}
 .carousel{
   width: 100vw;
   position: relative;
@@ -87,7 +91,7 @@
   border-radius: 2rem;
 }
 .park-page{
-  max-height: 50rem;
+  max-height: 45rem;
 }
 .park-page h1{
   text-align: center;

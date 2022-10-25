@@ -12,7 +12,7 @@ import React from 'react'
 
 function Homepage() {
   return (
-    <div>
+    <div className="main-home">
         <Casourel/>
         <About/>
         <News/>
