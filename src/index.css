@@ -91,6 +91,7 @@
   border-radius: 2rem;
 }
 .park-page{
+  overflow: hidden;
   max-height: 45rem;
 }
 .park-page h1{
